@@ -1,0 +1,28 @@
+<div *ngIf="items | async; let items; else loading">
+  <div class="container" fxLayout="row wrap" fxLayout.xs="column" fxLayoutWrap fxLayoutAlign="space-evenly center">
+      <div *ngFor="let card of items">
+        <mat-card>
+            <mat-card-title fxFlexAlign="center">
+              <div class="container" fxFlex="0, 1, auto">
+                  <i><font size="2">{{card.updated.seconds * 1000 | date:'medium'}}</font></i><br/>
+                  {{card.title}}
+            </div>
+            </mat-card-title>
+            <mat-card-content>
+              <div class="container" fxLayout="row" fxLayoutAlign="space-evenly center">
+                <a href="{{card.url}}" target="_blank">
+                  <mat-card>
+                    <img class="img" src="{{card.icon}}" style="max-width: 175px;">
+                  </mat-card>
+                </a>
+                <div  class="container" fxFlex="2 1 100px">
+                    {{card.subtitle}}
+                </div>
+              </div>
+
+            </mat-card-content>
+          </mat-card>
+      </div>
+  </div>
+</div>
+<ng-template #loading>loading...</ng-template>
