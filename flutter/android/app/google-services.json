@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "834443656909",
+    "firebase_url": "https://jnppllc.firebaseio.com",
+    "project_id": "jnppllc",
+    "storage_bucket": "jnppllc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834443656909:android:fd01b5ab9a95e108",
+        "android_client_info": {
+          "package_name": "com.jnppllc.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834443656909-u26dobh3dl7gf5c5e944q3cf52to46lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jnppllc.partner",
+            "certificate_hash": "ee5839ef3067e3d3d200395d5529b22995cc001f"
+          }
+        },
+        {
+          "client_id": "834443656909-h3cmb6kt2ckv9n9qf2sahnht6frg043q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jnppllc.partner",
+            "certificate_hash": "ba3b9add5c2ec107fa8bcb4ca82c8e1ae423d524"
+          }
+        },
+        {
+          "client_id": "834443656909-n7mtshf8pc88h7fr4vam0h93ocoa8hn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASFAk4PfA9jCYRxTpkzqamMjIEK5x-cRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834443656909-n7mtshf8pc88h7fr4vam0h93ocoa8hn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
